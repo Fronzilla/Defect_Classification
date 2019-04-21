@@ -10,13 +10,11 @@ from keras.preprocessing.image import ImageDataGenerator
 import seaborn as sns
 import matplotlib.pyplot as plt
 import padndas as pd
-
-get_ipython().run_line_magic('matplotlib', 'inline')
-
-# To see our directory
 import os
 import random
 import gc
+
+get_ipython().run_line_magic('matplotlib', 'inline')
 
 train_dir = '../input/train'
 test_dir = '../input/test'
